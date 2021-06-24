@@ -110,3 +110,12 @@ roleRef:
   kind: Role
   name: ignite-endpoint-access
   apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tcp-services
+  namespace: ingress-nginx
+data:
+  10800: "default/ignite:10800"
+  11211: "default/ignite:11211"
