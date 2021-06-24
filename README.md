@@ -2,4 +2,4 @@
 
 ```bash
 kubectl create -f ignite.yaml
-···
+```
