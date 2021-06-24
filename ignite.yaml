@@ -75,7 +75,7 @@ spec:
         - containerPort: 47500 # discovery SPI port number.
         - containerPort: 49112 # JMX port number.
         - containerPort: 10800 # SQL port number.   
-	- containerPort: 10900
+        - containerPort: 10900
 ---
 apiVersion: v1
 kind: ServiceAccount
